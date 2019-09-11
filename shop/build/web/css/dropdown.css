@@ -1,0 +1,46 @@
+/* Dropdown Button */
+.dropbtnMenu {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    padding: 1.4em 1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownMenu {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentMenu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentMenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentMenu a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdownMenu:hover .dropdown-contentMenu {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdownMenu:hover .dropbtnMenu {background-color: transparent;}
